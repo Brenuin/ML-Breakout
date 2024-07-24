@@ -1,0 +1,17 @@
+# Ignore everything
+*
+
+# Do not ignore .gitignore itself
+!.gitignore
+
+# Allow the Breakout directory
+!Breakout/
+
+# Allow everything within the Breakout directory
+Breakout/*
+
+# Allow specific subdirectories or files
+!Breakout/Assets/
+Breakout/Assets/*
+!Breakout/Assets/scripts/
+Breakout/Assets/scripts/*
